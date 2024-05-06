@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+input{
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 15px;
+    width: 155px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: black;
+    text-align: right;
+    border: 2px solid rgb(29, 29, 29);
+    color: blue;
+}
+button{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid rgb(25, 25, 25);
+    margin-bottom: 5px;
+    background: transparent;
+    color: aqua;
+}

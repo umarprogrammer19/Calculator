@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="input">
+            <input type="text" id="input" disabled><br>
+        </div>
+        <div class="btnRow1">
+            <button onclick="clearAll()">AC</button>
+            <button onclick="clearOne('input')">C</button>
+            <button onclick="getValue('%')">%</button>
+            <button onclick="getValue('/')">/</button><br>
+        </div>
+        <div class="btnrow2">
+            <button onclick="getValue(7)">7</button>
+            <button onclick="getValue(8)">8</button>
+            <button onclick="getValue(9)">9</button>
+            <button onclick="getValue('*')">X</button><br>
+        </div>
+        <div class="btnrow3">
+            <button onclick="getValue(4)">4</button>
+            <button onclick="getValue(5)">5</button>
+            <button onclick="getValue(6)">6</button>
+            <button onclick="getValue('-')">-</button><br>
+        </div>
+        <div class="btnrow4">
+            <button onclick="getValue(1)">1</button>
+            <button onclick="getValue(2)">2</button>
+            <button onclick="getValue(3)">3</button>
+            <button onclick="getValue('+')">+</button><br>
+        </div>
+        <div class="btnrow5">
+            <button onclick="getValue(0)">00</button>
+            <button onclick="getValue(0)">0</button>
+            <button onclick="getValue('.')">.</button>
+            <button onclick="equal()">=</button><br>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
