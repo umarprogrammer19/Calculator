@@ -15,21 +15,22 @@
 input{
     margin-bottom: 5px;
     padding: 5px;
-    font-size: 15px;
-    width: 155px;
-    height: 30px;
-    border-radius: 15px;
+    font-size: 23px;
+    width: 230px;
+    height: 40px;
+    border-radius: 20px;
     background-color: black;
     text-align: right;
     border: 2px solid rgb(29, 29, 29);
     color: blue;
 }
 button{
-    width: 35px;
-    height: 35px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
     border: 2px solid rgb(25, 25, 25);
     margin-bottom: 5px;
     background: transparent;
+    font-size: 20px;
     color: aqua;
 }
